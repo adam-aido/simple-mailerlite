@@ -113,13 +113,6 @@
         
         // Show message
         container.style.display = 'block';
-        
-        // Auto-hide success messages after 5 seconds
-        if (type === 'success') {
-            setTimeout(function() {
-                container.style.display = 'none';
-            }, 5000);
-        }
     }
     
     /**

@@ -3,7 +3,7 @@
  * Plugin Name: Simple MailerLite Integration
  * Plugin URI: https://github.com/adam-aido/simple-mailerlite
  * Description: A lightweight newsletter subscription plugin that integrates with MailerLite API.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Adam Antoszczak + Claude.ai
  * Author URI: https://webartisan.pro/
  * Text Domain: simple-mailerlite
@@ -18,7 +18,7 @@ if (!defined('WPINC')) {
 }
 
 // Define plugin constants
-define('SMPLR_VERSION', '1.0.0');
+define('SMPLR_VERSION', '1.0.1');
 define('SMPLR_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('SMPLR_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('SMPLR_PLUGIN_BASENAME', plugin_basename(__FILE__));
