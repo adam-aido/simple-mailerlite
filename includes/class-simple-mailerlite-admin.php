@@ -74,6 +74,11 @@ class Simple_MailerLite_Admin {
             'sanitize_callback' => array($this, 'sanitize_checkbox'),
             'default' => '1',
         ));
+
+        register_setting('simple_mailerlite_settings', 'simple_mailerlite_privacy_text', array(
+            'sanitize_callback' => 'wp_kses_post',
+            'default' => '',
+        ));
         
         register_setting('simple_mailerlite_settings', 'simple_mailerlite_success_message', array(
             'sanitize_callback' => 'sanitize_text_field',
